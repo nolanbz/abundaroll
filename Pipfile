@@ -6,6 +6,14 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+selenium = "*"
+flask = "*"
+flask-restful = "*"
+gunicorn = "*"
+celery = "*"
+requests = "*"
+werkzeug = "*"
+flask-httpauth = "*"
 
 [requires]
 python_version = "3.8"
