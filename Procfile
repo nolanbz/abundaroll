@@ -1,2 +1,2 @@
 web: gunicorn api:app
-worker: celery -A worker task.app -l INFO --concurrency=1
+worker: celery -A task.app worker -l INFO --concurrency=1
